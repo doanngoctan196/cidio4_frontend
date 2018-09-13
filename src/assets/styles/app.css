@@ -202,86 +202,67 @@ ul.pg_content_list_card{
     margin-top: 10px;
 }
 
-.deli-box-menu-detail {
-    margin-bottom: 10px;
-    border-bottom: #f5f5f5 1px solid;
-    padding-bottom: 10px;
+.pg_4_card{
+    width: 100%;
+    height: 110px;
+    background-color: rgba(124, 177, 212, 0.5);
+    margin-bottom: 5px;
+    border-radius: 5px;
     position: relative;
 }
 
-.img-food-detail {
-    width: 60px;
-}
-
-.pull-left {
+.pg_4_img{
+    border-radius: 5px;
+    display: block;
+    width: 110px;
+    height: 100%;
     float: left;
-}
-
-.pull-left {
-    float: left;
-}
-
-.deli-name-food-detail {
-    width: 200px;
-    margin-left: 15px;
-    line-height: 1.8em;
-    color: #333;
-}
-
-.deli-name-food-detail h3 {
-    color: #333;
-}
-
-.deli-more-info {
     position: absolute;
-    top: 21px;
+    left: 0px;
+    background-position: center;
+    background-size: cover;
+}
+
+.pg_4_info{
+    padding: 5px;
+    float: left;
+    position: absolute;
+    left: 110px;
     right: 0;
-    font-size: 12px;
-    line-height: 1.4em;
 }
 
-.adding-food-cart {
-    float: right;
-    font-family: arial;
-    font-size: 12px;
-    line-height: 1.4em;
+.pg_4_info > span{
+    display: block;
 }
 
-.btn-adding {
-    width: 22px;
-    height: 22px;
-    text-align: center;
-    line-height: 22px;
-    font-size: 20px;
+.pg_4_info > span:nth-child(3){
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-weight: 400;
+    color: deeppink;
+}
+
+.pg_4_info > span:nth-child(2){
+    font-size: 12px;
+}
+
+.pg_4_card > button {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+.pg_4_card > .pg_4_soluong{
+    position: absolute;
+    bottom: 2px;
+    left: 110px;
+    right: 120px;
+    
+}
+
+.pg_4_card > .pg_4_soluong input {
+    background: #666666 !important;
     color: #fff;
-    font-weight: 700;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    background-color: #cf2127;
-    display: inline-block;
-    margin-left: 10px;
-    cursor: pointer!important;
-    outline: 0;
-}
-
-.deli-container .font16 {
-    font-size: 16px;
-    line-height: 22px;
-}
-
-.bold {
-    font-weight: 700;
-}
-
-.txt-blue {
-    color: #206b9b;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.product-price p {
-    margin: 0;
-    width: 100px;
 }
 /* ------------------------------------------------------------------- */

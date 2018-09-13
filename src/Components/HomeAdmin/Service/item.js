@@ -20,7 +20,7 @@ class Item extends Component {
                             line={2}
                             truncateText="…"
                             text={this.props.mota}
-                            textTruncateChild={<a href="#">Read on</a>}
+                            textTruncateChild={<a href="/">Read on</a>}
                         />
                     </p>
 
